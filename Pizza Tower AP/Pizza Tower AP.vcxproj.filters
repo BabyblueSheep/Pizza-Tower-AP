@@ -1,0 +1,1979 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AP">
+      <UniqueIdentifier>{46ef3d5a-481e-48af-9f0e-c8822a687da4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Plugins\Plugins.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Plugins\API Definitions\APIDefs.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Structures\Documented\CDynamicArray\CDynamicArray.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Structures\Documented\YYRValue\YYRValue.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Structures\Documented\RefThing\RefThing.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Utils.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\AP.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Subprojects\asio\include\asio\impl\src.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK\SDK.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Enums\Enums.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FwdDecls\FwdDecls.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Plugins\Plugins.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Plugins\API Definitions\APIDefs.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Plugins\YYTKEvent\YYTKEvent.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Structures\Documented\APIVars\APIVars.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Structures\Documented\CCode\CCode.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Structures\Documented\CDynamicArray\CDynamicArray.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Structures\Documented\FunctionInfo\FunctionInfo.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Structures\Documented\Math\Math.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Structures\Documented\RefThing\RefThing.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Structures\Documented\RToken\RToken.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Structures\Documented\VMBuffer\VMBuffer.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Structures\Documented\YYRValue\YYRValue.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Structures\Undocumented\CScript\CScript.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Structures\Undocumented\VMExec\VMExec.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Structures\Undocumented\YYGMLFuncs\YYGMLFuncs.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Structures\Undocumented\YYObjectBase\YYObjectBase.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Structures\Undocumented\YYVAR\YYVAR.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Utils.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\AP.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\apclientpp\apclient.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\apclientpp\apuuid.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\apclientpp\defaultdatapackagestore.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\associated_allocator.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\associated_executor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\async_result.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\basic_datagram_socket.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\basic_deadline_timer.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\basic_io_object.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\basic_raw_socket.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\basic_seq_packet_socket.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\basic_serial_port.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\basic_signal_set.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\basic_socket.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\basic_socket_acceptor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\basic_socket_iostream.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\basic_socket_streambuf.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\basic_streambuf.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\basic_streambuf_fwd.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\basic_stream_socket.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\basic_waitable_timer.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\bind_executor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\buffer.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\buffered_read_stream.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\buffered_read_stream_fwd.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\buffered_stream.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\buffered_stream_fwd.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\buffered_write_stream.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\buffered_write_stream_fwd.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\buffers_iterator.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\completion_condition.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\connect.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\coroutine.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\datagram_socket_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\deadline_timer.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\deadline_timer_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\defer.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\array.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\array_fwd.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\assert.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\atomic_count.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\base_from_completion_cond.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\bind_handler.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\buffered_stream_storage.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\buffer_resize_guard.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\buffer_sequence_adapter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\call_stack.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\chrono.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\chrono_time_traits.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\completion_handler.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\concurrency_hint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\conditionally_enabled_event.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\conditionally_enabled_mutex.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\config.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\consuming_buffers.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\cstddef.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\cstdint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\date_time_fwd.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\deadline_timer_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\dependent_type.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\descriptor_ops.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\descriptor_read_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\descriptor_write_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\dev_poll_reactor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\epoll_reactor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\event.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\eventfd_select_interrupter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\executor_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\fd_set_adapter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\fenced_block.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\functional.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\future.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\gcc_arm_fenced_block.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\gcc_hppa_fenced_block.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\gcc_sync_fenced_block.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\gcc_x86_fenced_block.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\global.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\handler_alloc_helpers.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\handler_cont_helpers.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\handler_invoke_helpers.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\handler_tracking.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\handler_type_requirements.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\handler_work.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\hash_map.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\buffer_sequence_adapter.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\descriptor_ops.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\dev_poll_reactor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\dev_poll_reactor.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\epoll_reactor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\epoll_reactor.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\eventfd_select_interrupter.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\handler_tracking.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\kqueue_reactor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\kqueue_reactor.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\null_event.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\pipe_select_interrupter.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\posix_event.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\posix_mutex.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\posix_thread.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\posix_tss_ptr.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\reactive_descriptor_service.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\reactive_serial_port_service.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\reactive_socket_service_base.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\resolver_service_base.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\scheduler.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\select_reactor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\select_reactor.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\service_registry.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\service_registry.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\signal_set_service.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\socket_ops.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\socket_select_interrupter.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\strand_executor_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\strand_executor_service.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\strand_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\strand_service.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\throw_error.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\timer_queue_ptime.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\timer_queue_set.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\winrt_ssocket_service_base.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\winrt_timer_scheduler.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\winrt_timer_scheduler.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\winsock_init.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\win_event.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\win_iocp_handle_service.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\win_iocp_io_context.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\win_iocp_io_context.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\win_iocp_serial_port_service.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\win_iocp_socket_service_base.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\win_mutex.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\win_object_handle_service.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\win_static_mutex.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\win_thread.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\impl\win_tss_ptr.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\io_control.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\is_buffer_sequence.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\is_executor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\keyword_tss_ptr.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\kqueue_reactor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\limits.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\local_free_on_block_exit.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\macos_fenced_block.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\memory.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\mutex.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\noncopyable.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\null_event.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\null_fenced_block.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\null_global.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\null_mutex.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\null_reactor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\null_signal_blocker.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\null_socket_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\null_static_mutex.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\null_thread.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\null_tss_ptr.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\object_pool.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\old_win_sdk_compat.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\operation.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\op_queue.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\pipe_select_interrupter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\pop_options.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\posix_event.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\posix_fd_set_adapter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\posix_global.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\posix_mutex.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\posix_signal_blocker.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\posix_static_mutex.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\posix_thread.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\posix_tss_ptr.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\push_options.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactive_descriptor_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactive_null_buffers_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactive_serial_port_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactive_socket_accept_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactive_socket_connect_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactive_socket_recvfrom_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactive_socket_recvmsg_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactive_socket_recv_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactive_socket_sendto_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactive_socket_send_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactive_socket_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactive_socket_service_base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactive_wait_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactor_fwd.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactor_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\reactor_op_queue.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\recycling_allocator.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\regex_fwd.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\resolver_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\resolver_service_base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\resolve_endpoint_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\resolve_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\resolve_query_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\scheduler.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\scheduler_operation.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\scheduler_thread_info.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\scoped_lock.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\scoped_ptr.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\select_interrupter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\select_reactor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\service_registry.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\signal_blocker.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\signal_handler.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\signal_init.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\signal_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\signal_set_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\socket_holder.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\socket_ops.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\socket_option.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\socket_select_interrupter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\socket_types.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\solaris_fenced_block.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\static_mutex.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\std_event.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\std_fenced_block.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\std_global.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\std_mutex.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\std_static_mutex.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\std_thread.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\strand_executor_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\strand_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\string_view.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\thread.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\thread_context.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\thread_group.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\thread_info_base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\throw_error.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\throw_exception.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\timer_queue.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\timer_queue_base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\timer_queue_ptime.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\timer_queue_set.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\timer_scheduler.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\timer_scheduler_fwd.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\tss_ptr.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\type_traits.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\variadic_templates.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\wait_handler.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\wait_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\winapp_thread.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\wince_thread.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\winrt_async_manager.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\winrt_async_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\winrt_resolver_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\winrt_resolve_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\winrt_socket_connect_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\winrt_socket_recv_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\winrt_socket_send_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\winrt_ssocket_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\winrt_ssocket_service_base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\winrt_timer_scheduler.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\winrt_utils.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\winsock_init.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_event.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_fd_set_adapter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_fenced_block.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_global.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_handle_read_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_handle_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_handle_write_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_io_context.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_null_buffers_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_operation.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_overlapped_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_overlapped_ptr.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_serial_port_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_socket_accept_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_socket_connect_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_socket_recvfrom_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_socket_recvmsg_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_socket_recv_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_socket_send_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_socket_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_socket_service_base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_thread_info.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_iocp_wait_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_mutex.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_object_handle_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_static_mutex.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_thread.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\win_tss_ptr.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\work_dispatcher.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\detail\wrapped_handler.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\dispatch.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\error.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\error_code.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\execution_context.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\executor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\executor_work_guard.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\experimental.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\experimental\co_spawn.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\experimental\detached.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\experimental\impl\co_spawn.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\experimental\impl\detached.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\experimental\impl\redirect_error.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\experimental\redirect_error.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\generic\basic_endpoint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\generic\datagram_protocol.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\generic\detail\endpoint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\generic\detail\impl\endpoint.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\generic\raw_protocol.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\generic\seq_packet_protocol.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\generic\stream_protocol.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\handler_alloc_hook.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\handler_continuation_hook.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\handler_invoke_hook.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\handler_type.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\high_resolution_timer.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\buffered_read_stream.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\buffered_write_stream.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\connect.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\defer.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\dispatch.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\error.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\error_code.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\execution_context.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\execution_context.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\executor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\executor.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\handler_alloc_hook.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\io_context.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\io_context.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\post.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\read.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\read_at.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\read_until.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\serial_port_base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\serial_port_base.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\spawn.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\src.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\system_context.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\system_context.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\system_executor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\thread_pool.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\thread_pool.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\use_future.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\write.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\impl\write_at.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\io_context.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\io_context_strand.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\io_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\io_service_strand.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\address.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\address_v4.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\address_v4_iterator.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\address_v4_range.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\address_v6.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\address_v6_iterator.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\address_v6_range.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\bad_address_cast.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\basic_endpoint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\basic_resolver.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\basic_resolver_entry.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\basic_resolver_iterator.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\basic_resolver_query.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\basic_resolver_results.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\detail\endpoint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\detail\impl\endpoint.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\detail\socket_option.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\host_name.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\icmp.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\impl\address.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\impl\address.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\impl\address_v4.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\impl\address_v4.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\impl\address_v6.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\impl\address_v6.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\impl\basic_endpoint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\impl\host_name.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\impl\network_v4.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\impl\network_v4.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\impl\network_v6.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\impl\network_v6.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\multicast.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\network_v4.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\network_v6.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\resolver_base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\resolver_query_base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\resolver_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\tcp.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\udp.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\unicast.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ip\v6_only.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\is_executor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\is_read_buffered.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\is_write_buffered.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\local\basic_endpoint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\local\connect_pair.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\local\datagram_protocol.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\local\detail\endpoint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\local\detail\impl\endpoint.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\local\stream_protocol.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\packaged_task.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\placeholders.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\posix\basic_descriptor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\posix\basic_stream_descriptor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\posix\descriptor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\posix\descriptor_base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\posix\stream_descriptor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\posix\stream_descriptor_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\post.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\raw_socket_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\read.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\read_at.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\read_until.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\seq_packet_socket_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\serial_port.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\serial_port_base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\serial_port_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\signal_set.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\signal_set_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\socket_acceptor_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\socket_base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\spawn.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\context.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\context_base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\detail\buffered_handshake_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\detail\engine.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\detail\handshake_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\detail\impl\engine.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\detail\impl\openssl_init.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\detail\io.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\detail\openssl_init.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\detail\openssl_types.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\detail\password_callback.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\detail\read_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\detail\shutdown_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\detail\stream_core.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\detail\verify_callback.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\detail\write_op.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\error.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\impl\context.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\impl\context.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\impl\error.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\impl\rfc2818_verification.ipp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\impl\src.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\rfc2818_verification.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\stream.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\stream_base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\verify_context.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ssl\verify_mode.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\steady_timer.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\strand.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\streambuf.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\stream_socket_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\system_context.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\system_error.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\system_executor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\system_timer.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\thread.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\thread_pool.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\time_traits.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ts\buffer.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ts\executor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ts\internet.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ts\io_context.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ts\net.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ts\netfwd.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ts\socket.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\ts\timer.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\unyield.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\uses_executor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\use_future.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\version.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\waitable_timer_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\wait_traits.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\windows\basic_handle.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\windows\basic_object_handle.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\windows\basic_random_access_handle.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\windows\basic_stream_handle.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\windows\object_handle.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\windows\object_handle_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\windows\overlapped_handle.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\windows\overlapped_ptr.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\windows\random_access_handle.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\windows\random_access_handle_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\windows\stream_handle.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\windows\stream_handle_service.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\write.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\write_at.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\asio\include\asio\yield.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\json\include\nlohmann\json.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\compat\optional.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\adapters\adapter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\adapters\basic_adapter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\adapters\frozen_value.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\adapters\json11_adapter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\adapters\jsoncpp_adapter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\adapters\nlohmann_json_adapter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\adapters\picojson_adapter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\adapters\poco_json_adapter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\adapters\property_tree_adapter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\adapters\qtjson_adapter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\adapters\rapidjson_adapter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\adapters\std_string_adapter.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\constraints\basic_constraint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\constraints\concrete_constraints.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\constraints\constraint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\constraints\constraint_visitor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\constraint_builder.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\exceptions.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\internal\custom_allocator.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\internal\debug.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\internal\json_pointer.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\internal\json_reference.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\internal\optional.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\internal\uri.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\schema.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\schema_parser.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\subschema.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\utils\file_utils.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\utils\json11_utils.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\utils\jsoncpp_utils.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\utils\nlohmann_json_utils.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\utils\picojson_utils.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\utils\poco_json_utils.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\utils\property_tree_utils.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\utils\qtjson_utils.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\utils\rapidjson_utils.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\utils\utf8_utils.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\validation_results.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\validation_visitor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\valijson\include\valijson\validator.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\base64\base64.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\client.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\close.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\asio.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\asio_ssl.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\chrono.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\connection_hdl.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\cpp11.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\functional.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\md5.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\memory.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\network.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\platforms.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\random.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\regex.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\stdint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\system_error.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\thread.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\time.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\common\type_traits.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\concurrency\basic.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\concurrency\none.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\config\asio.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\config\asio_client.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\config\asio_no_tls.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\config\asio_no_tls_client.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\config\boost_config.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\config\core.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\config\core_client.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\config\debug.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\config\debug_asio.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\config\debug_asio_no_tls.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\config\minimal_client.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\config\minimal_server.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\connection.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\connection_base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\endpoint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\endpoint_base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\error.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\extensions\extension.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\extensions\permessage_deflate\disabled.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\extensions\permessage_deflate\enabled.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\frame.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\http\constants.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\http\impl\parser.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\http\impl\request.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\http\impl\response.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\http\parser.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\http\request.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\http\response.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\impl\connection_impl.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\impl\endpoint_impl.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\impl\utilities_impl.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\logger\basic.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\logger\levels.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\logger\stub.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\logger\syslog.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\message_buffer\alloc.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\message_buffer\message.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\message_buffer\pool.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\processors\base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\processors\hybi00.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\processors\hybi07.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\processors\hybi08.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\processors\hybi13.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\processors\processor.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\random\none.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\random\random_device.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\roles\client_endpoint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\roles\server_endpoint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\server.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\sha1\sha1.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\transport\asio\base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\transport\asio\connection.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\transport\asio\endpoint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\transport\asio\security\base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\transport\asio\security\none.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\transport\asio\security\tls.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\transport\base\connection.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\transport\base\endpoint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\transport\iostream\base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\transport\iostream\connection.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\transport\iostream\endpoint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\transport\stub\base.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\transport\stub\connection.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\transport\stub\endpoint.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\uri.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\utf8_validator.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\utilities.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\websocketpp\websocketpp\version.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\wswrSubprojects\include\wswrap.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\wswrSubprojects\include\wswrap_websocketpp.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\wswrSubprojects\include\wswrap_wsjs.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Subprojects\wswrSubprojects\subprojects\wsjs\wsjs.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Structures\Documented\CHashMSubprojects\CHashMap.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
